@@ -103,7 +103,7 @@ data "aws_ami" "windows_test" {
 
   filter {
     name   = "name"
-    values = ["Windows_Server-2025-English-Full-Base-2025.11.12"]
+    values = ["Windows_Server-2025-English-Full-Base-2026.01.14"]
   }
 }
 
